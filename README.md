@@ -30,7 +30,7 @@ ignores = [
 	'/pyc$/',
 	'/.+(node_modules|bower_components|__pycache__).+/'
 ]
-includes = [/.py$/]
+includes = ['/.py$/']
 child =  ['python', 'manage.py', 'runserver', '--noreload']
 ```
 
