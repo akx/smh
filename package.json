@@ -1,0 +1,30 @@
+{
+  "name": "smh",
+  "version": "0.1.0",
+  "description": "just a little file-watcher-child-process-reloader",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akx/smh.git"
+  },
+  "author": "Aarni Koskela <akx@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akx/smh/issues"
+  },
+  "homepage": "https://github.com/akx/smh",
+  "dependencies": {
+    "anymatch": "^1.2.1",
+    "arrify": "^1.0.0",
+    "chalk": "^1.0.0",
+    "chokidar": "^1.0.0-rc5",
+    "lodash": "^3.6.0",
+    "minimist": "^1.1.1",
+    "q": "^1.2.0",
+    "shell-quote": "^1.4.3",
+    "toml": "^2.2.1"
+  },
+  "preferGlobal": true,
+  "bin": "bin/smh.js"
+}
