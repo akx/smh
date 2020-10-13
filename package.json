@@ -15,16 +15,22 @@
   },
   "homepage": "https://github.com/akx/smh",
   "dependencies": {
-    "anymatch": "^1.2.1",
-    "arrify": "^1.0.0",
-    "bluebird": "^2.9.24",
-    "chalk": "^1.0.0",
-    "chokidar": "^1.0.0-rc5",
-    "lodash": "^3.6.0",
+    "anymatch": "^3.1.1",
+    "chalk": "^4.1.0",
+    "chokidar": "^3.4.3",
+    "lodash": "^4.17.20",
     "minimist": "^1.1.1",
     "shell-quote": "^1.4.3",
-    "toml": "^2.2.1"
+    "toml": "^3.0.0"
   },
   "preferGlobal": true,
-  "bin": "bin/smh.js"
+  "bin": "bin/smh.js",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  }
 }
