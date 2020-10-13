@@ -1,15 +1,16 @@
-var parseConfig = require("./lib/parseConfig");
-var work = require("./lib/work");
-var cli = function cli() {
-    work(parseConfig());
+const parseConfig = require("./lib/parseConfig");
+const work = require("./lib/work");
+
+const cli = function cli() {
+  work(parseConfig());
 };
 
 module.exports = {
-    cli: cli,
-    work: work,
-    parseConfig: parseConfig,
+  cli,
+  work,
+  parseConfig,
 };
 
 if (require.main === module) {
-    cli();
+  cli();
 }

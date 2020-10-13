@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-var smh = require("../index.js");
-var config = smh.parseConfig();
+const smh = require("../index.js");
+
+const config = smh.parseConfig();
 smh.work(config);

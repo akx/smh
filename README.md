@@ -38,17 +38,17 @@ child =  ['python', 'manage.py', 'runserver', '--noreload']
 
 ## Configuration options
 
-* `child`: The child command line (either as args array or a string)
-* `delay`: Delay in msec before restarting the child after changes have occurred.
-* `dumpConfig`: Dump the configuration to the console at startup.
-* `ignores`: Patterns (glob or `/regexp/`) to ignore 
-* `includes`: Patterns (glob or `/regexp/`) to include (if empty, everything is included)
-* `logEvents`: Log all the file system events to the console at startup.
-* `paths`: Paths/globs to watch.
-* `preset`: A configuration preset (see below).
-* `signal`: The signal to send to the child to have it quit. Defaults to `SIGINT`.
+- `child`: The child command line (either as args array or a string)
+- `delay`: Delay in msec before restarting the child after changes have occurred.
+- `dumpConfig`: Dump the configuration to the console at startup.
+- `ignores`: Patterns (glob or `/regexp/`) to ignore
+- `includes`: Patterns (glob or `/regexp/`) to include (if empty, everything is included)
+- `logEvents`: Log all the file system events to the console at startup.
+- `paths`: Paths/globs to watch.
+- `preset`: A configuration preset (see below).
+- `signal`: The signal to send to the child to have it quit. Defaults to `SIGINT`.
 
 ## Presets
 
-* `python`: Sane defaults for Python development, ignoring `node_modules` and `bower_components`
-* `django`: As `python`, with an added `child = "python manage.py runserver --noreload"`.
+- `python`: Sane defaults for Python development, ignoring `node_modules` and `bower_components`
+- `django`: As `python`, with an added `child = "python manage.py runserver --noreload"`.
